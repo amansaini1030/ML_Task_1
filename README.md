@@ -1,5 +1,8 @@
 ML_Task_1 :-
 
+    In this Task we have to do transfer learning on a pre-trained model ( VGG ) for face Recognition.
+    In this model I have used two faces for recognition
+
 First of all lets generate the Dataset for face Recognition
 
 1.) ML_Task_Dataset
@@ -26,6 +29,7 @@ After generating the dataset for all the faces you can use ML_Task_Traing progra
 Note:- Here I have created this program file for training of Two face Recognition
 
 2.) ML_Task_Training
+
     # Using VGG for creating our own FaceRocognition model
     # Funtion to add new layers to the model
     # modelnew created
@@ -35,4 +39,5 @@ Note:- Here I have created this program file for training of Two face Recognitio
 After Training you can use ML_Task_Testing program file to test the accuracy of newmodel created
 
 3.) ML_Task_Testing
+
     # Testing of the FaceRecognition Model
